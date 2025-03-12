@@ -1,0 +1,46 @@
+.fl-tree {
+  @apply overflow-auto;
+}
+.fl-tree-node {
+  @apply flex items-center h-7 py-0.5 rounded-md cursor-default leading-7 select-none transition-all;
+  /*transition: all .2s ease-out;*/
+  /*overflow: hidden;*/
+  transition: height 150ms cubic-bezier(0.4, 0, 0.2, 1), opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fl-tree-node-expanded .fl-tree-node-toggle > .fl-icon {
+  @apply rotate-90;
+}
+
+.fl-tree-node:hover {
+  @apply hover:bg-gray-100;
+}
+
+.fl-tree-node-toggle {
+  @apply flex items-center justify-center size-6 rounded-md text-base hover:bg-gray-200 cursor-pointer;
+}
+
+.fl-tree-node-toggle > .fl-icon {
+  @apply inline-block align-baseline text-xs transition-all;
+}
+
+.fl-tree-node-title {
+  @apply flex items-center text-sm text-gray-800;
+}
+
+.fl-tree-node-title-icon {
+  @apply flex items-center justify-center size-6 text-xs;
+}
+/*display: inline-block;*/
+/*font-size: 10px;*/
+/*vertical-align: baseline;*/
+
+.fl-tree-node-enter,
+.fl-tree-node-exit-to {
+  opacity: 0;
+  height: 0;
+}
+
+.fl-tree-node-exit-active {
+  /*position: absolute;*/
+}

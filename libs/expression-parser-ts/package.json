@@ -1,0 +1,19 @@
+{
+  "name": "expression-parser",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "check": "tsc --noEmit",
+    "lint": "biome lint",
+    "format": "biome lint --write --unsafe"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "author": {
+    "name": "夜浮卿(yefu)",
+    "email": "243249439@qq.com",
+    "github": "https://github.com/yefu24324/expression-parser"
+  }
+}

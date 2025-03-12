@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+/* 主题根据html标签的class来切换 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  /**
+   * 应用于整个页面的基础样式
+   */
+  body {
+    @apply relative text-base font-normal z-1 bg-gray-50 font-sans;
+  }
+}
+
+/*body {*/
+/*  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;*/
+/*}*/
