@@ -8,7 +8,7 @@ export default defineConfig({
   middleware: "./src/middleware.ts",
   vite: {
     server: {
-      allowedHosts: "host.docker.internal",
+      allowedHosts: true,
     },
     plugins: [
       tailwindcss(),

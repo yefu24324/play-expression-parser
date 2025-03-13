@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  play-expression-parser:
+    # 从当前路径构建镜像
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yefu/play-expression-parser:latest
+    ports:
+      - '22010:3000'
