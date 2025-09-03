@@ -29,7 +29,7 @@
 
 ### 在线使用
 
-访问我们的[在线演示(备案中)](http://play-expression-parser.yefu24324.com) -> [备用链接](http://43.139.15.54:22012)
+访问我们的[在线演示](https://expression-parser.yefu24324.com)
 
 ### 前提条件
 
@@ -76,7 +76,6 @@ pnpm serve
 ```
 
 ## 🔧 技术栈
-- [TypeScript](https://www.typescriptlang.org/) - **核心解析器**
 - [SolidJS + SolidStart](https://docs.solidjs.com/) - 高性能的前端框架
 - [Vite](https://cn.vite.dev/) - 下一代前端构建工具
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript的超集语言
